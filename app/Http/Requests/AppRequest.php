@@ -2,6 +2,7 @@
 
 namespace App\Http\Requests;
 
+use App\Application_layer;
 use Illuminate\Foundation\Http\FormRequest;
 
 class AppRequest extends FormRequest
@@ -24,15 +25,12 @@ class AppRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'=>'required',
-            'develop_language'=>'required',
-            'app_database'=>'required',
-            'develop_company'=>'required',
-            'getting_start_years'=>'required',
-            'app_relation'=>'required',
-            'remark'=>'required',
-            'ma_cost'=>'required',
-            'department_id'=>'required'
+
+            'name'=>'required|Unique:Application_layer',
+           // 'app_database'=>'required',
+           // 'develop_language'=>'required',
+
+           
         ];
     }
 }

@@ -8,7 +8,7 @@ class Business_layer extends Model
 {
   public $timestamps = false;
     protected $table="Business_layer";
-      protected $fillable=['name','workflow_path','remark','department_id'] ;
+      protected $fillable=['name','workflow_path','remark','department_id','type','lv3_id'] ;
         protected $guarded=['id',] ;
 
 }

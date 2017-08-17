@@ -8,6 +8,6 @@ class Data_layer extends Model
 {
   public $timestamps = false;
     protected $table="Data_layer";
-      protected $fillable=['name','remark'] ;
+      protected $fillable=['name','type','remark','data','data_dic'] ;
         protected $guarded=['id',] ;
 }

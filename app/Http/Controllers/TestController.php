@@ -10,6 +10,11 @@ use App\Application_layer;
 
 class TestController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+        // $this->middleware('roles');
+    }
     public function index(){
       //$buss = Business_layer::get();
       //$buss = DB::table('Business_layer')->get();

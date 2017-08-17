@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests\UserRequest;
 use App\Http\Requests\User1Request;
+use App\Http\Requests\User2Request;
 use App\User;
 use App\Users;
 use App\UserEdit;
@@ -17,7 +18,7 @@ class UserController extends Controller
   public function __construct()
   {
     //  $this->middleware('auth');
-    //  $this->middleware('roles');
+      $this->middleware('roles');
   }
     public function index(){
       //$app = application_layer::all();
@@ -27,7 +28,7 @@ class UserController extends Controller
     public function create(){
     return view('/user.create');
     }
-    public function store(UserRequest $request)
+    public function store(User2Request $request)
      {
        //user::create($request->all());
        //return redirect()->route('user.index')->with('message','item has been added successfully');

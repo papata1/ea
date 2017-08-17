@@ -37,6 +37,8 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 	<link rel="stylesheet" href="css/skel-noscript.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/style-desktop.css" />
+		<link rel="shortcut icon" href="{{ URL::asset('images/kmutnb.ico') }}" />
+
 </head>
 <body class="homepage">
 

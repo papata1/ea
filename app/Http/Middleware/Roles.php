@@ -16,9 +16,10 @@ class Roles
     public function handle($request, Closure $next)
     {
         //$role = Auth::role();
-        if (\auth::user()->role == 'admin') {
-          return $next($request);
+        $user = $request->user();
+        if($user&&$user->role=='Super Admin'){
+            return $next($request);
         }
-          return response('plz1111 login',401);
+        abort(403);
     }
 }

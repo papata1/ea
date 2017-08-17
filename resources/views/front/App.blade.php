@@ -1,202 +1,179 @@
-<!DOCTYPE HTML>
-<!--
-Imagination by TEMPLATED
-templated.co @templatedco
-Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
+<!DOCTYPE html>
+<!-- Template Name: Clip-One - Responsive Admin Template build with Twitter Bootstrap 3.x Version: 1.4 Author: ClipTheme -->
+<!--[if IE 8]><html class="ie8 no-js" lang="en"><![endif]-->
+<!--[if IE 9]><html class="ie9 no-js" lang="en"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- start: HEAD -->
 <head>
-	<title>Imagination by TEMPLATED</title>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-
-
-
-	<!-- Bootstrap Core CSS -->
-	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-	<!-- MetisMenu CSS -->
-	<link href="vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
-
-	<!-- Custom CSS -->
-	<link href="dist/css/sb-admin-2.css" rel="stylesheet">
-
-	<!-- Morris Charts CSS -->
-	<link href="vendor/morrisjs/morris.css" rel="stylesheet">
-
-	<!-- Custom Fonts -->
-	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-	<!-- DataTables CSS -->
-	<link href="vendor/datatables-plugins/dataTables.bootstrap.css" rel="stylesheet">
-
-	<!-- DataTables Responsive CSS -->
-	<link href="vendor/datatables-responsive/dataTables.responsive.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/skel-noscript.css" />
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/style-desktop.css" />
-</head>
-<body class="homepage">
-
-	<div id="header-wrapper">
-
-		<!-- Header -->
-		<div id="header">
-			<div class="container">
-
-				<!-- Logo -->
-				<div id="logo">
-					<h1><a href="#">EA DOCUMENT REPOSITORY</a></h1>
-				</div>
-
-				<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li class="active"><a href="index.html">ข้อมูล 4 ระดับ</a></li>
-						<li><a href="left-sidebar.html">ตารางความสัมพันธ์</a></li>
-
-					</ul>
-				</nav>
-
-			</div>
-		</div>
-		<!-- Header -->
-
-		<!-- Banner -->
-		<div id="banner">
-
-		</div>
-		<!-- /Banner -->
-
-	</div>
-
-	<!-- Extra -->
-	<div id="extra">
-		<div class="container">
-			<div class="row">
-				<section class="3u">
-					<header>
-						<h2>Bussiness</h2>
-					</header>
-					<span class="fa fa-sitemap"></span>
-					<p>Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus.</p>
-				</section>
-				<section class="3u">
-					<header>
-						<h2>DATA</h2>
-					</header>
-					<span class="fa fa-file-text-o"></span>
-					<p>Pellentesque tristique ante ut risus. Integer risus congue. Suspendisse dictum porta lectus.</p>
-				</section>
-				<section class="3u">
-					<header>
-						<h2>APPLICATION</h2>
-					</header>
-					<span class="fa fa-laptop"></span>
-					<p>Suspendisse dictum porta lectus. Integer nisl risus, sagittis convallis, rutrum congue nibh. </p>
-				</section>
-				<section class="3u">
-					<header>
-						<h2>TECHNOLOGY</h2>
-					</header>
-					<span class="fa fa-tasks"></span>
-					<p>In posuere eleifend odio quisque semper augue mattis wisi maecenas ligula augue praesent.</p>
-				</section>
-			</div>
-		</div>
-	</div>
-
-	<!-- /Extra -->
-
-			<!-- Main -->
-	<div id="main">
-		<div class="container">
-			<div class="form-group"><h1 style="font-size:38px;">APPICATION</h1></div>
+	<title>EA DOCUMENT REPOSITORY</title>
+	<!-- start: META -->
+	<meta charset="utf-8" />
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	<!-- end: META -->
+	<!-- start: MAIN CSS -->
+	<link rel="stylesheet" href="{{ URL::asset('css/theme/plugins/bootstrap/css/bootstrap.min.css') }}" >
+	<link rel="stylesheet" href="{{ URL::asset('css/theme/plugins/font-awesome/css/font-awesome.min.css') }}" >
+	<link rel="stylesheet" href="{{ URL::asset('css/theme/fonts/style.css') }}" >
+	<link rel="stylesheet" href="{{ URL::asset('css/theme/css/main.css') }}" >
+	<link rel="stylesheet" href="{{ URL::asset('css/theme/css/main-responsive.css') }}" >
+	<link rel="stylesheet" href="{{ URL::asset('css/theme/plugins/iCheck/skins/all.css') }}" >
+	<link rel="stylesheet" href="{{ URL::asset('css/theme/plugins/bootstrap-colorpalette/css/bootstrap-colorpalette.css') }}" >
+	<link rel="stylesheet" href="{{ URL::asset('css/theme/plugins/perfect-scrollbar/src/perfect-scrollbar.css') }}" >
+	<link rel="stylesheet" href="{{ URL::asset('css/theme/css/theme_light.css') }}" >
+	<link rel="stylesheet" href="{{ URL::asset('css/theme/css/print.css') }}" >
+	<link rel="shortcut icon" href="{{ URL::asset('images/kmutnb.ico') }}" />
+		<!--[if IE 7]>
+		<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome-ie7.min.css">
+		<![endif]-->
+		<!-- end: MAIN CSS -->
+		<!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
+		<!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
+	</head>
+	<!-- end: HEAD -->
+	<!-- start: BODY -->
+	<body>
+		<div class="page-container container">
 			<div class="form-group">
-		<div class="bs-example" data-example-id="bordered-table">
+				<center>{!! Html::image('images\banner.jpg') !!}</center>
+			</div>
+			<div style="text-align:center">
+				@include('front.topnav')
+			</div> 
+			<!-- start: MAIN CONTAINER -->
+			<div class="main-container">
+				<!-- start: PAGE -->
+				<!-- /.modal -->
+				<!-- end: SPANEL CONFIGURATION MODAL FORM -->
+				<div class="container">
 
-		<div class="panel panel-default" >
-				<div class="panel-heading">
-						DataTables Advanced Tables
+					<!-- start: PAGE CONTENT -->
+					<div class="row">
+						<div class="col-md-12">
+							<!-- start: RESPONSIVE TABLE PANEL -->
+							<div class="panel panel-default">
+								<div style="height: 50px;padding:0" class="panel-heading">
+									<div style="font-size:33px;">&nbsp;&nbsp;&nbsp;ระบบสารสนเทศ</div>
+								</div>
+								<div class="panel-body">
+									<div class="table-responsive">
+										<!-- Start: table content -->
+										<input style="float:right; width: 400px;" type="text" id="myInput" onkeyup="myFunction()" placeholder="ค้นหา" title="Type in a name"><br><br>
+										<table class="table table-bordered table-hover" id="myTable">
+											<thead>
+												<tr>
+													<th><center>รหัส</center></th>
+													<th><center>ชื่อ</center></th>
+													<th><center>ภาษาที่ใช้</center></th>
+													<th><center>ฐานข้อมูล</center></th>
+													<th><center>ปีที่เริ่มใช้งาน</center></th>
+													<th><center>ระบบสารสนเทศที่เกี่ยวข้อง</center></th>
+													<th><center>รายละเอียด</center></th>
+												</tr>
+											</thead>
+											<tbody>
+												@foreach($model as $model)
+												<tr onclick="document.location = '<?php echo url('main/AppDetail/'.$model->alid); ?>';">
+													<td>{{ $model->pfix }}{{ $model->alid }}</td>
+													<td>{{ $model->alname }}</td>
+													<td>
+														@foreach($model3 as $modell3)
+														<?php if($model->aldevl==$modell3->id)echo$modell3->name; ?>
+														@endforeach
+													</td>
+													<td>
+														@foreach($model4 as $modell4)
+														<?php if($model->alappdb==$modell4->id)echo$modell4->name; ?>
+														@endforeach
+													</td>
+													<td>{{ $model->algettingstartyear }}</td>
+													<td>
+														@foreach($model2 as $modell2)
+														<?php
+														if($model->alid == $modell2->compalid)
+														{
+															echo"- ".$modell2->alname."<br>";
+														}
+														?>
+														@endforeach
+													</td>
+													<td>{{ $model->alremark }}</td>
+												</tr>
+												@endforeach
+											</tbody>
+										</table>
+										<!-- End: table content -->
+									</div>
+								</div>
+							</div>
+							<!-- end: RESPONSIVE TABLE PANEL -->
+						</div>
+					</div>
+					<!-- end: PAGE CONTENT-->
 				</div>
-				<!-- /.panel-heading -->
-				<div class="panel-body" style="margin-right:20px;">
-						<table width="100%" class="table table-striped table-bordered table-hover" id="dataTables-example">
-								<thead>
-										<tr>
-												<th><center>ลำดับ</th>
-												<th><center>ชื่อ</th>
-												<th><center>ภาษา</th>
-												<th><center>หน่วนความจำ</th>
-										</tr>
-								</thead>
-								<tbody>
-								@foreach($apps as $app)
-								<tr>
-									<th scope="row">{{ $app->id }}</th>
-									<td>{{ $app->name }}</td>
-									<td>{{ $app->develop_language }}</td>
-									<td>{{ $app->app_database }}</td>
-								</tr>
-								@endforeach
-								</tbody>
-						</table>
-
-				</div>
-				<!-- /.panel-body -->
+			</div>
+			<!-- end: PAGE -->
+			<!-- end: MAIN CONTAINER -->
 		</div>
-		<!-- /.panel -->
-	</div>
+		<!-- start: MAIN JAVASCRIPTS -->
+		<script src="{{ URL::asset('css/theme/plugins/jQuery-lib/2.0.3/jquery.min.js') }}"></script>
+		<!--<![endif]-->
+		<script src="{{ URL::asset('css/theme/plugins/jquery-ui/jquery-ui-1.10.2.custom.min.js') }}"></script>
+		<script src="{{ URL::asset('css/theme/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+		<script src="{{ URL::asset('css/theme/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js') }}"></script>
+		<script src="{{ URL::asset('css/theme/plugins/blockUI/jquery.blockUI.js') }}"></script>
+		<script src="{{ URL::asset('css/theme/plugins/iCheck/jquery.icheck.min.js') }}"></script>
+		<script src="{{ URL::asset('css/theme/plugins/perfect-scrollbar/src/jquery.mousewheel.js') }}"></script>
+		<script src="{{ URL::asset('css/theme/plugins/perfect-scrollbar/src/perfect-scrollbar.js') }}"></script>
+		<script src="{{ URL::asset('css/theme/plugins/less/less-1.5.0.min.js') }}"></script>
+		<script src="{{ URL::asset('css/theme/plugins/jquery-cookie/jquery.cookie.js') }}"></script>
+		<script src="{{ URL::asset('css/theme/plugins/bootstrap-colorpalette/js/bootstrap-colorpalette.js') }}"></script>
+		<script src="{{ URL::asset('css/theme/js/main.js') }}"></script>
 
+		<!-- end: MAIN JAVASCRIPTS -->
+		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<script>
+			jQuery(document).ready(function() {
+				Main.init();
+			});
 
-
-</div>
-</div>
-</div>
-	<!-- /Main -->
-
-
-
-	<!-- Copyright -->
-	<div id="copyright">
-		<div class="container">
-			Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
-		</div>
-	</div>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="js/skel.min.js"></script>
-	<script src="js/skel-panels.min.js"></script>
-	<script src="js/init.js"></script>
-	<!-- jQuery -->
-	<script src="vendor/jquery/jquery.min.js"></script>
-
-	<!-- Bootstrap Core JavaScript -->
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-	<!-- Metis Menu Plugin JavaScript -->
-	<script src="vendor/metisMenu/metisMenu.min.js"></script>
-
-	<!-- Morris Charts JavaScript -->
-	<script src="vendor/raphael/raphael.min.js"></script>
-	<script src="vendor/morrisjs/morris.min.js"></script>
-	<script src="data/morris-data.js"></script>
-	<!-- DataTables JavaScript -->
-	<script src="vendor/datatables/js/jquery.dataTables.min.js"></script>
-	<script src="vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
-	<script src="vendor/datatables-responsive/dataTables.responsive.js"></script>
-	<!-- Custom Theme JavaScript -->
-	<script src="dist/js/sb-admin-2.js"></script>
-	<!-- Page-Level Demo Scripts - Tables - Use for reference -->
-	<script>
-	$(document).ready(function() {
-		$('#dataTables-example').DataTable({
-			responsive: true
-
-		});
-	});
+			function myFunction() {
+				var input, filter, table, tr, td0, td1, td2, td3, td4, td5, td6, i;
+				input = document.getElementById("myInput");
+				filter = input.value.toUpperCase();
+				table = document.getElementById("myTable");
+				tr = table.getElementsByTagName("tr");
+				for (i = 0; i < tr.length; i++) {
+					td0 = tr[i].getElementsByTagName("td")[0];
+					td1 = tr[i].getElementsByTagName("td")[1];
+					td2 = tr[i].getElementsByTagName("td")[2];
+					td3 = tr[i].getElementsByTagName("td")[3];
+					td4 = tr[i].getElementsByTagName("td")[4];
+					td5 = tr[i].getElementsByTagName("td")[5];
+					if (td0 || td1 || td2 || td3 || td4 || td5) {
+						if (
+							td0.innerHTML.toUpperCase().indexOf(filter) > -1 || 
+							td1.innerHTML.toUpperCase().indexOf(filter) > -1 || 
+							td2.innerHTML.toUpperCase().indexOf(filter) > -1 || 
+							td3.innerHTML.toUpperCase().indexOf(filter) > -1 || 
+							td4.innerHTML.toUpperCase().indexOf(filter) > -1 ||
+							td5.innerHTML.toUpperCase().indexOf(filter) > -1
+							) {
+							tr[i].style.display = "";
+					} else {
+						tr[i].style.display = "none";
+					}
+				}
+			}
+		}
 	</script>
-
 </body>
+<!-- end: BODY -->
 </html>

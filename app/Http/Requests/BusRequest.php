@@ -2,6 +2,7 @@
 
 namespace App\Http\Requests;
 
+use App\Business_layer;
 use Illuminate\Foundation\Http\FormRequest;
 
 class BusRequest extends FormRequest
@@ -24,10 +25,9 @@ class BusRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'=>'required',
+            'name'=>'required|Unique:Business_layer',
+            'type'=>'required'
             
-            'remark'=>'required',
-            'department_id'=>'required'
 
         ];
     }

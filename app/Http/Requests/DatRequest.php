@@ -2,6 +2,7 @@
 
 namespace App\Http\Requests;
 
+use App\Data_layer;
 use Illuminate\Foundation\Http\FormRequest;
 
 class DatRequest extends FormRequest
@@ -24,8 +25,7 @@ class DatRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'=>'required',
-            'remark'=>'required',
+            'name'=>'required|Unique:Data_layer',
         ];
     }
 }
